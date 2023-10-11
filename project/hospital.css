@@ -1,0 +1,38 @@
+body{height:100%;margin:0;padding:0;}
+
+.noLine{text-decoration:none}
+.logo{left:300px;top:110px;width:60px;height:60px;}
+.QR{width:200px;height:200px;margin-left:200px;}
+.logbodycolor{background-color:#F6F5F5}
+.Tip{background-color:#8AB6D6;color:#FFFBEF;font-family:verdana;}
+.banner{width:2000px;height:500px}
+#lognavigation{color:#FFFBEF;font-family:verdana;background-color:#8AB6D6;text-align:center;}
+#loghosName{text-align:center;color:#0061A8;font-family:verdana;}
+#selectBox{font-size:20px;height:27px;width:120px;}
+#textBox{font-size:20px;height:27px;width:250px;}
+#acidBox{position:relative;width:600px;height:600px;border:2px;border-color:lightblue;margin:auto;border-style:solid;}
+#butt{width:40px;height:10px;}
+#text{color:#0061A8;font-family:verdana;text-align:left;margin:20px;}
+#print{margin-left:850px;margin-top:20px;;background:#0061A8;border-color: #0061A8;width:250px;height:50px;font-size:20px;color:white;}
+.logfunction{font-size:40px; color:#0061A8;}
+.logPart{text-align:center ;font-family:verdana;}
+.hint{color:#0061A8;text-align:center ;}
+footer{margin-top:-10px;bottom:0px;height:79px;left:0px;width:100%;background: #f7f7f7;}
+.sub-foot{width:1000px;margin:0 auto;text-align:center;color:#828282}
+
+
+.mgbgcolor{background-color:#F6F5F5;}
+.mgtop{text-align:center;font-family:Arial, Helvetica,sans-serif;color:#0061A8;font-size:40px;}
+.mgt1{border-radius:19px;background-color:#A8D8D9;color:#0D5661;font-family:sans-serif;font-size:20px;font-weight:900;}
+.mgt2{background-color:#FEFFDE;border-radius:19px;color:#0D5661;font-family:sans-serif;font-size:20px;text-align:center;}
+.mgtable{border-collapse: collapse;margin-left:300px;top:320px;width:50%;}
+.divmg{left:300px;top:150px;text-align:center;font-family:Arial, Helvetica,sans-serif;color:#0061A8;}
+.back{position:absolute;font-family:verdana;left:1500px;top:450px;}
+
+.s{background:#0061A8;border-color: #0061A8;width:250px;height:50px;font-size:20px;margin-top:20px;color:white;}
+
+#display2{font-size:25px;background-color:#FFF0F5;position:absolute;left:1100px;top:200px;height:400px;width:400px;font-weight:bold;text-align:center;border:5px solid pink}
+.infor{height:26px;width:180px;font-size:20px;}
+#fail{font-size:25px;background-color:#B0C4DE;margin: 0 auto;margin-top: 1%;height:400px;width:400px;border:5px solid #6495ED;text-align:center;}
+#sel1{height:26px;width:90px;font-size:20px;}
+.drugbody{font-size:25px;font-family:verdana;}

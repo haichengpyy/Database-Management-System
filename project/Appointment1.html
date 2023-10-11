@@ -1,0 +1,64 @@
+<html>
+<title> Appointment Registration</title>
+<head>
+<link rel="stylesheet" type="text/css" href="http://localhost/project/hospital.css">
+</head>
+<body class="logbodycolor">
+	<h1 id="loghosName"><img class ="logo" src="logo.png"  >&nbsp&nbsp&nbsp&nbspUIC &nbsp HOSPITAL <br>Wishing you a speedy recovery</h1>
+	<h3 id="lognavigation">
+		Navigation &nbsp &nbsp
+        <a href="http://localhost/project/Homepage2.html"class="noLine"  >Home Page</a>  &nbsp
+				<a href="http://localhost/project/userlogin.html" class="noLine" >User login</a> &nbsp
+                <a href="http://localhost/project/ManagerPage.html" class="noLine" >Manager login</a> &nbsp
+                <a href="http://localhost/project/userRegister.html" class="noLine" >User Register</a>
+				
+    </h3>
+	<h1 class="mgtop">You can make an appointment here</h1>
+	<form name="app1" action="http://localhost/project/Appointment2.php" onsubmit="return inputAllInfo()" method="post">
+	<h3 id="loghosName">Please select the department first:
+	<select id="selectBox" name="department">
+				<option></option>
+				<option>Cardiology</option>
+				<option>ENT</option>  
+				<option>Internal Medicine</option>
+				<option>Nursing</option>
+				<option>OG</option>
+				<option>Pediatrics</option>
+				<option>Respiratory</option>
+				<option>Surgical</option>
+	</select>
+	<br><br>
+	
+	<input class="s" type="submit" name="login" value="next" ></h3>
+	
+	<footer class="footer">
+		<div class="sub-foot">
+                <ul>
+					<li><a>articles of law</a></li>
+					<li><a>privacy protection</a></li>
+					<li><a>contact us</a></li>
+					<li><a>FAQ</a></li>
+				</ul>
+				<p>copyright owner@dbms group</p>
+           
+        </div>
+	</footer>
+	
+	
+</body>
+<script>
+function inputAllInfo(){
+   //tell the exact blank that manager need input
+   var dp = document.getElementById("selectBox").value;
+
+   //using the if condition statement to test which the blank is null
+   if(dp==""){
+	 window.alert("You must choose your department first");
+	 return false;
+   }else{
+     return true;
+   }
+}
+
+</script>
+</html>

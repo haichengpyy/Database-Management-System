@@ -1,0 +1,53 @@
+<!--Knight 2030026123 -->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://localhost/project/hospital.css">
+</head>
+<body class="logbodycolor">
+        
+        <h1 id="loghosName"><img class ="logo" src="logo.png"  >&nbsp&nbsp&nbsp&nbspUIC &nbsp HOSPITAL <br>Welcome to our HOSPITAL</h1>
+        <h3 id="lognavigation">
+		Navigation &nbsp &nbsp
+                <a href="http://stuweb.uic.edu.cn/q030026182/project/Homepage.html"class="noLine"  >Home Page</a>  &nbsp
+				<a href="http://stuweb.uic.edu.cn/q030026182/project/userlogin.html" class="noLine" >User login</a> &nbsp
+                <a href="http://stuweb.uic.edu.cn/ManagerPage.html" class="noLine" >Manager login</a> &nbsp
+                <a href="http://stuweb.uic.edu.cn/userRegister.html" class="noLine" >User Register</a>
+				
+        </h3>
+              
+		<img src="banner.jpg" class="banner" ></img>
+		<div class="Tip">
+        <h3 id="lognavigation">
+                <a href="#"class="noLine" onclick="return checklog()" >Appointment</a>  &nbsp &nbsp
+				<a href="#" class="noLine" onclick="return checklog()">Nucleic acid results</a> &nbsp &nbsp
+                <a href="#" class="noLine" onclick="return checklog()">Drug purchase</a> &nbsp &nbsp
+                <a href="#" class="noLine" onclick="return checklog()">Floor guide</a> &nbsp &nbsp
+                <a href="#" class="noLine" onclick="return checklog()">Personal Center</a> &nbsp &nbsp
+				
+        </h3>
+           
+        </div>	
+		<br>
+	<footer class="footer">
+		<div class="sub-foot">
+                <ul>
+					<li><a>articles of law</a></li>
+					<li><a>privacy protection</a></li>
+					<li><a>contact us</a></li>
+					<li><a>FAQ</a></li>
+				</ul>
+				<p>copyright owner@dbms group</p>
+           
+        </div>
+	</footer>
+<script>
+function checklog(){
+    var msg = confirm("Please log in first and click OK to enter the login interface");
+    if (msg) {
+        window.location.href = "http://stuweb.uic.edu.cn/q030026182/project/userlogin.html";
+    }
+	}
+</script>
+
+</body>
+</html>

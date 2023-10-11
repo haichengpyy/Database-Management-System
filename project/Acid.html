@@ -1,0 +1,50 @@
+<html>
+<title> Appointment Registration</title>
+<head>
+<link rel="stylesheet" type="text/css" href="http://localhost/project/hospital.css">
+</head>
+<body class="logbodycolor">
+	<h1 id="loghosName"><img class ="logo" src="logo.png"  >&nbsp&nbsp&nbsp&nbspUIC &nbsp HOSPITAL </h1>
+	<h3 id="lognavigation">
+		Navigation &nbsp &nbsp
+        <a href="http://stuweb.uic.edu.cn/q030026182/project/Homepage.html"class="noLine"  >Home Page</a>  &nbsp
+				<a href="http://stuweb.uic.edu.cn/q030026182/userlogin.html" class="noLine" >User login</a> &nbsp
+                <a href="http://localhost/project/ManagerPage.html" class="noLine" >Manager login</a> &nbsp
+                <a href="http://localhost/project/userRegister.html" class="noLine" >User Register</a>
+				
+    </h3>
+	<h1 class="mgtop">You can print the most recent nucleic acid result by yourself</h1>
+	<form name="acid" action="http://localhost/project/Homepage.html" method="post">
+	<div id="acidBox">
+		<h2 id="loghosName">Latest nucleic acid test records</h2>
+		<h1><?php echo "lalala\n" ?></h1>
+		<h3 id="text">Name: Your Name</h3>
+		<h3 id="text">Sampling time: Your latest sampling time</h3>
+		<h3 id="text">Testing organization: UIC Hospital</h3>
+		<h3 id="text">Testing result: negative</h3>
+		<h3 id="text">Health status: Low risk</h3>
+		<h3 id="text">COVID-19 vaccination records: You have received two shots of vaccine successfully</h3>
+		<img class ="QR" src="QR.png" >
+		<p id="text">Thanks for choosing our hospital, wish you a good life!</p>
+	</div>
+	<input id="print" type="submit" name="login" value="print the result" onclick="prSucc()"></h3>
+	<footer class="footer">
+		<div class="sub-foot">
+                <ul>
+					<li><a>articles of law</a></li>
+					<li><a>privacy protection</a></li>
+					<li><a>contact us</a></li>
+					<li><a>FAQ</a></li>
+				</ul>
+				<p>copyright owner@dbms group</p>
+           
+        </div>
+	</footer>
+	
+</body>
+<script>
+function prSucc(){
+	window.alert("The result is printing!\nThanks for choosing our hospital, wish you a good life!")
+}
+</script>
+</html>

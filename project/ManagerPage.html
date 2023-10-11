@@ -1,0 +1,75 @@
+<!--Knight 2030026123 -->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://localhost/project/hospital.css">
+</head>
+<body class="logbodycolor">
+        <h1 id="loghosName"><img class ="logo" src="logo.png"  >&nbsp&nbsp&nbsp&nbspUIC &nbsp HOSPITAL <br>Welcome to our HOSPITAL</h1>
+        <h3 id="lognavigation">
+		Navigation &nbsp &nbsp
+				<a href="http://localhost/project/Homepage2.html"class="noLine"  >Home Page</a>  &nbsp
+				<a href="http://localhost/project/userlogin.html" class="noLine" >User login</a> &nbsp
+                <a href="http://localhost/project/ManagerPage.html" class="noLine" >Manager login</a> &nbsp
+                <a href="http://localhost/project/userRegister.html" class="noLine" >User Register</a>
+				
+        </h3>
+
+<!-- the page for manager to login --->
+<div class = "logPart">
+<h1 class="mgtop">Manager Login Page</h1>
+
+<form name="managerForm" action="Manager.php" onsubmit="return inputAllData()" method="post" > 
+<!-- if the function return false, manager cannot login -->
+<h3 class = "hint">
+<label>Username</label>
+<input type="text" id="username" name="username"  value="" /><br><br>
+
+<label>Password</label>
+<input type="password" id="mpsd" name="mpsd" value="" /><br><br>
+<input class="s" type="submit" value="Login" name="submit"  />
+</h3>
+</form>
+</div>
+
+	<footer class="footer">
+		<div class="sub-foot">
+                <ul>
+					<li><a>articles of law</a></li>
+					<li><a>privacy protection</a></li>
+					<li><a>contact us</a></li>
+					<li><a>FAQ</a></li>
+				</ul>
+				<p>copyright owner@dbms group</p>
+           
+        </div>
+	</footer>
+<script>
+//test whether the manager input all the blank
+function inputAllData(){
+   //tell the exact blank that manager need input
+   var uname = document.getElementById("username").value;
+
+   var psd = document.getElementById("mpsd").value;
+   //using the if condition statement to test which the blank is null
+   if(username==""){
+		if(psd==""){
+			window.alert("You must input all the blank");	//using window alert to warn manager
+			return false;
+		}
+	 window.alert("You must input your username");
+	 return false;
+   }
+   }else if(psd==""){
+     window.alert("You must input your password");
+	 return false;
+   }
+   //if manager input all the blank, then return true
+   //and go to the php page to test whether it has this manager
+   else{
+     return true;
+   }
+}
+
+</script>
+</body>
+</html>

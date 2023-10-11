@@ -1,0 +1,105 @@
+<!-- 2030026059 ManagerOperation Page -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="hospital.css">
+<style>
+.image1{
+        position:absolute;left:200px;top:300px;
+        left:200px;
+		width:440px;
+        height:300px;
+        border-radius:25px;
+    }
+.image2{
+        position:absolute;left:200px;top:620px;
+        left:200px;
+		width:440px;
+        height:300px;
+        border-radius:25px;
+    }
+.search{position:absolute;left:160px;top:370px;color:#0061A8;}
+.searchTitle{width:290px;height:130px;}
+.box{width:100%;height:20;border:5px solid #F6F5F5;display:table;text-align:center;}
+.box1{width:100%;height:350;border:5px solid #F6F5F5;background-color:#FAEBD7;display:table;text-align:center;}
+.pics{display:table-cell;vertical-align:center;}
+</style>
+</head>
+<body class="logbodycolor">
+        <h1 id="loghosName"><img class ="logo" src="logo.png"  >&nbsp&nbsp&nbsp&nbspUIC &nbsp HOSPITAL <br> Manager System <br> for  User Infor</h1>
+        <h3 id="lognavigation">
+		
+				<a href="http://localhost/project/ManagerOperation.html"  class="noLine"  >System Start Page</a>  &nbsp 
+				<a href="http://localhost/project/MecStaffManager.html"  class="noLine"  >Mec-Staff Manager</a>  &nbsp 
+				<a href="http://localhost/project/Homepage2.html"  class="noLine"  >Quit</a>  
+				
+        </h3>
+
+
+<div class = "logPart">
+<h1><div id="datetime">
+    <h1>
+	<script>
+        setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+    </script>
+	</h1>
+</div></h1>
+</div>
+
+
+<div class = "box">
+	<div class = "pics">
+		<h2 style = "display: block;text-align:center;background-color:#8AB6D6;color:white;">User Infor Searching</h2>
+	</div>
+</div>
+
+<div class = "box1">
+	<div class = "pics">
+		<br><br>
+		<h2>
+		<form>
+		<label>Username</label>
+		<input type="text" id="username" name="username"  value="" /><br><br>
+		<label>Gender</label>
+		<label><input name="gender" type="radio" value="" />Male </label> 
+		<label><input name="gender" type="radio" value="" />Female </label> <br><br>
+		<label>UserID</label>
+		<input type="password" id="mpsd" name="mpsd" value="" /><br><br> <!-- 后期改为id对应属性 -->
+		<input class="s" type="submit" value="Search" name="submit"  />
+		</form>
+		</h2>
+	</div>
+</div>
+
+<div class = "box">
+	<div class = "pics">
+		<h2>这块可以显示今日核酸检测整体情况、有无阳性结果...</h2> 
+		<h2>This section can show the overall situation of today’s nucleic acid test and whether there is a positive result...</h2>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+	<footer class="footer">
+		<div class="sub-foot">
+                <ul>
+					<li><a>articles of law</a></li>
+					<li><a>privacy protection</a></li>
+					<li><a>contact us</a></li>
+					<li><a>FAQ</a></li>
+				</ul>
+				<p>copyright owner@dbms group</p>
+           
+        </div>
+	</footer>
+<script>
+
+
+</script>
+</body>
+</html>
